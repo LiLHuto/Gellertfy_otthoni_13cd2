@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "083a501f-d87e-4ec8-9524-cfa7994f4cf1",
+		"name": "atletikavb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41522697"
+	},
+	"item": [
+		{
+			"name": "1_feladat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/1_feladat",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"1_feladat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2_feladat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nemzet\": \"Magyarország\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/2_feladat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"2_feladat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3_feladat",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/3_feladat/47",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"3_feladat",
+						"47"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4_feladat",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Eredmeny\": \"13,20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/4_feladat/24/110 m gát",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"4_feladat",
+						"24",
+						"110 m gát"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
